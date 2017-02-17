@@ -96,6 +96,7 @@ public class Linkedlist_ins {
 		//l.insert(l.head.next, 222);
 		l.insert(second, 999);
 		l.append(124);
+		l.append(7845);
 		l.printlist();
 		l.deletenode(300);
 		System.out.println("------After Deletion--------");
