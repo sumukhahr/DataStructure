@@ -2,6 +2,7 @@
 public class insertionsort {
 	public static void sort(int arr[])
 	{
+		
 		int n=arr.length;
 		for(int i=1;i<n;i++)
 		{
@@ -21,5 +22,6 @@ public class insertionsort {
 		sort(arr1);
 		for(int i=0;i<arr1.length;i++)
 		{
+			System.out.println("Branch 1 changes");
 		System.out.println(arr1[i]);
 		}}}
