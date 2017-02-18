@@ -17,6 +17,7 @@ public class insertionsort {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Master changes");
 		int arr1[]={5,2,9,1,22};
 		sort(arr1);
 		for(int i=0;i<arr1.length;i++)
